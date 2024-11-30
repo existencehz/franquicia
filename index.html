@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Franco</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <main class="main">
+        <div class="init-screen">
+            <button id="start-button">Jugar</button>
+        </div>
+        <div class="points-container">
+            <p id="points_p">Puntos: 0</p>
+        </div>
+        <div class="game-container">
+            <div class="game"></div>
+        </div>
+        <div class="controls-container">
+            <div class="input-group">
+                <label for="cant_candles">Secuencias</label>
+                <input id="cant_candles" type="number" min="1" value="1" placeholder="Secuencias">  
+            </div>
+            
+            
+            <button id="up">Alta</button>
+            <button id="down">Baja</button>
+        </div>
+    </main>
+    <audio id="music" src="./assets/xd.mp3"></audio>
+    <script src="index.js"></script>
+</body>
+</html>
